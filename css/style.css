@@ -20,6 +20,16 @@ section, footer {
 
 }
 
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 /* CLASSES  */
 
 .flex {
@@ -402,12 +412,43 @@ footer .row-footer .top-footer  {
 
 }
 
-footer .row-footer .top-footer div {
+footer .row-footer .top-footer .list-top-footer {
     width: 160px;
+    
 
     /*  Test */
     border: white dotted 1px;
     height: 220px;
+}
+
+footer .row-footer .top-footer .list-top-footer span {
+    display: block;
+    padding-bottom: 35px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+footer .row-footer .top-footer .list-top-footer ul {
+
+    list-style: none;
+
+}
+
+
+footer .row-footer .top-footer .list-top-footer ul li {
+    
+
+}
+
+
+footer .row-footer .top-footer .list-top-footer ul li a {
+
+    text-decoration: none;
+    
+    color: white;
+
 }
 
 /* bottom footer */
