@@ -284,5 +284,22 @@ header .row .buttons-header {
 
 /* END 5 section  */
 
+/* 6 section - "Modern box"  */
+
+.sixth-section {
+
+    align-items: flex-start;
+
+    /* test */
+    background-color: yellow;
+}
+
+.sixth-section .square {
+    width: calc(100% / 3 /2);
+}
+
+
+/* END 6 section  */
+
 /* END Main with 8 sections  */
 
