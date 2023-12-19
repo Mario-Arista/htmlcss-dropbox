@@ -147,7 +147,7 @@ header .row .buttons-header {
 .second-section .container {
 
     padding-top: 130px;
-
+    padding-bottom: 150px;
 
     /* test  */
     border: green 2px solid;
@@ -178,8 +178,7 @@ header .row .buttons-header {
 
 .second-section .container .orizontal {
     
-    padding-top: 50px;
-    padding-bottom: 75px;
+
 
 
     
@@ -208,15 +207,28 @@ header .row .buttons-header {
 }
 
 .third-section .container {
+    justify-content: flex-start;
 
-    margin-top: 75px;
-    margin-bottom: 75px;
+    padding-bottom: 150px;
 
     /* test  */
     border: green 2px solid;
+    
+}
+
+.third-section .container div:first-child {
+    /* TEST */
+    width: 600px;
     height: 500px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    background-color: green;
+}
+
+.third-section .container div:last-child {
+
+    flex-grow: 1;
+
+    /* TEST */
+    background-color: red;
 }
 
 /* END 3 section  */
@@ -235,8 +247,7 @@ header .row .buttons-header {
     /* test  */
     border: green 2px solid;
 
-    padding-top: 75px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .fourth-section .container h2 {
@@ -269,8 +280,7 @@ header .row .buttons-header {
 
 .fifth-section {
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 
 
 }
@@ -324,8 +334,8 @@ header .row .buttons-header {
 
 .seventh-section {
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
     background-color: #B4D0E7;
 
@@ -345,8 +355,8 @@ header .row .buttons-header {
 
 .eighth-section {
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 
 
 }
@@ -375,6 +385,7 @@ footer .row-footer {
     margin-left: auto;
     margin-right: auto;
     
+    margin-top: 100px;
 
     width: 1200px;
     
@@ -396,14 +407,14 @@ footer .row-footer .top-footer div {
 
     /*  Test */
     border: white dotted 1px;
-    height: 100%;
+    height: 220px;
 }
 
 /* bottom footer */
 
 footer .row-footer .bottom-footer  {
 
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 50px;
 
 }
