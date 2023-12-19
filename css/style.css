@@ -7,12 +7,26 @@
 
 /* Common Rules */
 
+/* TAGS  */
+
 body {
     font-family:' Open Sans', sans-serif;
 }
 
+section {
+
+    width: 100%;
+
+}
+
+/* CLASSES  */
+
 .flex {
     display: flex;
+}
+
+section.white {
+    background-color: white;
 }
 
 
@@ -80,14 +94,11 @@ header .row .buttons-header {
 
 /* END Header  */
 
-/* Main with 9 sections  */
+/* Main with 8 sections  */
 
 /* 1 section  */
 
 .first-section {
-    width: 100%;
-
-    background-color: #B4D0E7;
 
     padding-left: 16px;
     padding-right: 16px;
@@ -95,8 +106,6 @@ header .row .buttons-header {
     /* 80 px di header più 80 px di padding */
     padding-top: calc(80px + 80px); 
     
-    /* test */
-    border:  green solid 2px;
 }
 
 .first-section .container {
@@ -104,7 +113,7 @@ header .row .buttons-header {
     margin-left: auto;
     margin-right: auto;
 
-    max-width: 1100px;
+    max-width: 1200px;
 
     /* test */
     border: black 1px dashed;
@@ -112,5 +121,47 @@ header .row .buttons-header {
     height: 650px;
 }
 /* END 1 section  */
+
+/* 2 section  */
+
+.second-section {
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: white;
+
+    /* TEST */
+    border:  red solid 2px;
+    
+}
+
+.second-section .container {
+
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1000px;
+
+    /* test */
+    border: black 1px dashed;
+    background-color: azure;
+    height: 650px;
+    
+}
+
+.second-section .container .table-columns {
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.second-section .container .table-columns .info-box {
+    max-width: 300;
+
+    /* test  */
+    border: black 1px dashed;
+}
+/* END 2 section  */
 
 /* END Main with 9 sections  */
