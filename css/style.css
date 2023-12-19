@@ -295,11 +295,43 @@ header .row .buttons-header {
 }
 
 .sixth-section .square {
-    width: calc(100% / 3 /2);
+    width: 33vw;
+    
+
+    /* test  */
+    height: 33vw;
+    border: purple dotted 1px;
+
 }
 
+.sixth-section .lateral .small-sq {
+    justify-content: center;
+    width: 600px;
+    
+    /* test  */
+    border: green dotted 1px;
 
+}
 /* END 6 section  */
+
+/* 7 section  */
+
+.seventh-section {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+.seventh-section .container {
+
+    /* TEst */
+    height: 200px;
+    border: solid 2px red;
+}
+
+/* END 7 section  */
 
 /* END Main with 8 sections  */
 
