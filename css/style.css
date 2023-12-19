@@ -14,7 +14,7 @@ body {
     background-color: white;
 }
 
-section {
+section, footer {
 
     width: 100%;
 
@@ -357,6 +357,49 @@ header .row .buttons-header {
 /* END Main with 8 sections  */
 
 /* Footer  */
+footer {
 
-/* END Footer  */
 
+    background-color: #000000;
+
+    color: #FFFFFF;
+}
+
+footer .row-footer {
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    width: 1200px;
+    
+}
+
+/* top footer */
+
+footer .row-footer .top-footer  {
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+footer .row-footer .top-footer div {
+    width: 160px;
+
+    /*  Test */
+    border: white dotted 1px;
+    height: 100%;
+}
+
+/* bottom footer */
+
+footer .row-footer .bottom-footer  {
+
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+/* bottom footer */
