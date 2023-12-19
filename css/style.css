@@ -11,6 +11,7 @@
 
 body {
     font-family:' Open Sans', sans-serif;
+    background-color: white;
 }
 
 section {
@@ -126,10 +127,8 @@ header .row .buttons-header {
 
 .second-section {
 
-    padding-left: 20px;
-    padding-right: 20px;
-
-    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
 
     /* TEST */
     border:  red solid 2px;
@@ -140,28 +139,60 @@ header .row .buttons-header {
 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 130px;
 
     max-width: 1000px;
 
-    /* test */
-    border: black 1px dashed;
-    background-color: azure;
-    height: 650px;
+    /* test  */
+    border: green 2px solid;
     
 }
+
+/* parte con tre box */
 
 .second-section .container .table-columns {
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
+
 }
 
-.second-section .container .table-columns .info-box {
-    max-width: 300;
+
+.second-section .container .table-columns .vertical {
+    
+    width: 330px;
+
+    /* test */
+    height: 950px;
+    background-color: azure;
+    border: black 1px solid;
+}
+
+/* parte con 1 box oriz. */
+
+.second-section .container .orizontal {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    
+
+    width: 100%;
 
     /* test  */
-    border: black 1px dashed;
+    border: green 2px solid;
+
+    /* test */
+    height: 210px;
+    background-color: azure;
+    border: black 1px solid;
 }
+
+
 /* END 2 section  */
 
 /* END Main with 9 sections  */
