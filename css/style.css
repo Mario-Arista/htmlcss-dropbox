@@ -15,16 +15,13 @@ body {
     display: flex;
 }
 
-.fixed {
-    display: fixed;
-}
 
 /* END General Rules */
 
 /* Header  */
 
 header {
-    display: fixed;
+    position: fixed;
     z-index: 2;
 
     width: 100%;
@@ -82,3 +79,38 @@ header .row .buttons-header {
 }
 
 /* END Header  */
+
+/* Main with 9 sections  */
+
+/* 1 section  */
+
+.first-section {
+    width: 100%;
+
+    background-color: #B4D0E7;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
+    /* 80 px di header più 80 px di padding */
+    padding-top: calc(80px + 80px); 
+    
+    /* test */
+    border:  green solid 2px;
+}
+
+.first-section .container {
+
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1100px;
+
+    /* test */
+    border: black 1px dashed;
+    background-color: grey;
+    height: 650px;
+}
+/* END 1 section  */
+
+/* END Main with 9 sections  */
