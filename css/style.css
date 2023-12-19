@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
-.body {
+/* Common Rules */
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.flex {
+    display: flex;
+}
+
+/* END General Rules */
+
