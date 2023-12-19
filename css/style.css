@@ -223,6 +223,39 @@ header .row .buttons-header {
 
 /* 4 section  */
 
+.fourth-section {
+
+    /* TEST */
+    border:  red solid 2px;
+    
+}
+
+.fourth-section .container {
+
+    /* test  */
+    border: green 2px solid;
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.fourth-section .container .row-features {
+
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.features-box {
+    width: calc(100% / 3);
+
+    /* test */
+    height: 500px;
+    border: green 1px dashed;
+    
+}
+
 /* END 4 section  */
 
 
