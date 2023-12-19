@@ -304,13 +304,20 @@ header .row .buttons-header {
 
 }
 
-.sixth-section .lateral .small-sq {
-    justify-content: center;
-    width: 600px;
+.sixth-section .lateral  {
+    justify-content: flex-start;
+    flex-wrap: wrap;
     
     /* test  */
     border: green dotted 1px;
 
+}
+
+.sixth-section .lateral .small-sq {
+    width: calc(100% / 2);
+
+    /* test  */
+    border: green dotted 1px;
 }
 /* END 6 section  */
 
