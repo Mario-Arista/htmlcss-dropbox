@@ -8,12 +8,77 @@
 /* Common Rules */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family:' Open Sans', sans-serif;
 }
 
 .flex {
     display: flex;
 }
 
+.fixed {
+    display: fixed;
+}
+
 /* END General Rules */
 
+/* Header  */
+
+header {
+    display: fixed;
+    z-index: 2;
+
+    width: 100%;
+
+    color: black;
+    font-size: 10px;
+    background-color: #FFFFFF;
+
+    /* TEST */
+
+    border:  red solid 2px;
+}
+
+header .row {
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+header .row .logo-header, 
+header .row .buttons-header {
+    
+    width: 170px;
+
+    /* test  */
+    border: black 1px dashed;
+}
+
+header .row nav {
+    flex-grow: 1;
+
+    justify-content: space-between;
+    align-items: center;
+
+    /* test  */
+    border: black 1px dashed;
+}
+
+header .row nav ul {
+    gap: 40px;
+
+    list-style: none;
+}
+
+header .row .buttons-header {
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+/* END Header  */
