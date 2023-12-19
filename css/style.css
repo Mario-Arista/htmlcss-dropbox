@@ -26,12 +26,26 @@ section {
     display: flex;
 }
 
+.big {
+
+    max-width: 1200px;
+    
+}
+
+.small {
+
+    max-width: 1000px;
+    
+}
+
 .container {
 
     margin-left: auto;
     margin-right: auto;
 
 }
+
+
 
 /* END General Rules */
 
@@ -113,8 +127,6 @@ header .row .buttons-header {
 
 .first-section .container {
 
-    max-width: 1200px;
-
     /* test */
     border: black 1px dashed;
     background-color: grey;
@@ -126,8 +138,6 @@ header .row .buttons-header {
 
 .second-section {
 
-    padding-left: 16px;
-    padding-right: 16px;
 
     /* TEST */
     border:  red solid 2px;
@@ -138,7 +148,6 @@ header .row .buttons-header {
 
     margin-top: 130px;
 
-    max-width: 1000px;
 
     /* test  */
     border: green 2px solid;
@@ -169,13 +178,10 @@ header .row .buttons-header {
 
 .second-section .container .orizontal {
     
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 75px;
 
-    padding-left: 16px;
-    padding-right: 16px;
+
     
 
     width: 100%;
@@ -192,4 +198,33 @@ header .row .buttons-header {
 
 /* END 2 section  */
 
-/* END Main with 9 sections  */
+/* 3 section  */
+
+.third-section {
+
+    /* TEST */
+    border:  red solid 2px;
+    
+}
+
+.third-section .container {
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+    /* test  */
+    border: green 2px solid;
+    height: 500px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/* END 3 section  */
+
+/* 4 section  */
+
+/* END 4 section  */
+
+
+/* END Main with 8 sections  */
+
