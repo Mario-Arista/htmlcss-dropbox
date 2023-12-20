@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -230,28 +230,25 @@ header .container .jumbo .jumbo-img img {
 /* END Header  */
 
 
-/* Main with 8 sections  */
-
-
+/* Main with 7 sections  */
 
 /* 1 section  */
-
-.first-section {
-
-    
-}
 
 .first-section .container {
 
     padding-top: 130px;
     padding-bottom: 150px;
 
-
-    
 }
 
 .first-section .container h2 {
+
     padding-bottom: 60px;
+
+}
+
+input {
+    font-size: 12px;
 }
 
 /* parte con tre box */
@@ -272,10 +269,84 @@ header .container .jumbo .jumbo-img img {
     
     width: calc(100% / 3 - 50px / 3 * 2);
 
+
     /* test */
     height: 950px;
-    background-color: azure;
-    border: black 1px solid;
+
+}
+
+/* Common vertical boxes */
+
+.info-box {
+    font-size: 12px;
+    border: #BABABD 1px solid;
+}
+
+.box-title {
+    text-align: center;
+    padding: 12px;
+    border-bottom: #BABABD 1px solid;
+}
+
+.name-plan {
+    padding-top: 38px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.price-plan {
+    padding-bottom: 18px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.duration-plan {
+    padding-bottom: 55px;
+    padding-left: 30px;
+    color: #BABABD;
+}
+
+.info-plan {
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.info-plan:nth-child(6) {
+    padding-bottom: 80px;
+    padding-left: 30px;
+}
+
+.box-plan .button {
+    text-align: center;
+    padding: 15px;
+    border: red 1px solid;
+}
+
+.link-plan {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+.box-plan hr {
+    display: inline-block;
+    width: 50px;
+    margin-left: 30px;
+}
+.milestone-plan {
+    padding-left: 30px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.insight-plan {
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.insight-plan i {
+    color: blue;
 }
 
 /* parte con 1 box oriz. */
@@ -284,13 +355,11 @@ header .container .jumbo .jumbo-img img {
 
     width: 100%;
 
-    /* test  */
-    border: green 2px solid;
 
     /* test */
     height: 210px;
     background-color: azure;
-    border: black 1px solid;
+
 }
 
 
