@@ -11,7 +11,6 @@
 
 body {
     font-family:' Open Sans', sans-serif;
-    background-color: white;
 }
 
 section, header, footer {
@@ -365,18 +364,13 @@ header .container {
 .fifth-section {
 
     align-items: flex-start;
-
-    /* test */
-    background-color: yellow;
+ 
 }
 
 .fifth-section .square {
-    width: calc(100vw /3);
-    
 
-    /* test  */
+    width: calc(100vw /3);
     height: calc(100vw /3);
-    border: purple dotted 1px;
 
 }
 
@@ -384,7 +378,7 @@ header .container {
 
     justify-content: flex-start;
     flex-wrap: wrap;
-    
+  
 }
 
 .fifth-section .lateral .small-sq {
@@ -392,9 +386,76 @@ header .container {
     width: calc(100% / 2);
     height: calc(100% / 2);
 
-    /* test  */
-    border: green dotted 1px;
 }
+
+.fifth-section .lateral .small-sq img {
+    
+    margin: 0 auto;
+    width: 140px;
+    height: auto;
+
+    filter: invert(99%) sepia(7%) saturate(31%) hue-rotate(222deg) brightness(112%) contrast(93%);
+    
+}
+
+#florida {
+
+    width: 160px;
+    height: auto;
+
+}
+
+/* Background colors squares lateral */
+
+/* First square */ 
+
+.fifth-section .lateral:first-of-type .small-sq:nth-child(1) {
+
+
+    border: #D1E9CD 15px solid;
+    background-color: #9ECF98;
+} 
+
+
+.fifth-section .lateral:first-of-type .small-sq:nth-child(2) {
+
+    background-color: #61082B;
+} 
+
+.fifth-section .lateral:first-of-type .small-sq:nth-child(3) {
+
+    background-color: #3792CD;
+} 
+
+.fifth-section .lateral:first-of-type .small-sq:nth-child(4) {
+
+    background-color: #F31C1E;
+} 
+
+/* Second square */ 
+
+.fifth-section .lateral:last-of-type .small-sq:nth-child(1) {
+
+    background-color: #D5001F;
+} 
+
+.fifth-section .lateral:last-of-type .small-sq:nth-child(2) {
+
+    background-color: #B4D0E7;
+} 
+
+.fifth-section .lateral:last-of-type .small-sq:nth-child(3) {
+
+    background-color: #172481;
+} 
+
+.fifth-section .lateral:last-of-type .small-sq:nth-child(4) {
+
+    background-color: #F9D82F;
+} 
+
+/* Background colors squares lateral */
+
 /* END 5 section  */
 
 /* 6 section  */
