@@ -238,9 +238,6 @@ header .container .jumbo .jumbo-img img {
 
 .first-section {
 
-
-    /* TEST */
-    border:  red solid 2px;
     
 }
 
@@ -300,13 +297,6 @@ header .container .jumbo .jumbo-img img {
 /* END 1 section  */
 
 /* 2 section  */
-
-.second-section {
-
-    /* TEST */
-    border:  red solid 2px;
-    
-}
 
 .second-section .container {
     justify-content: flex-start;
