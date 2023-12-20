@@ -374,6 +374,46 @@ header .container {
 
 }
 
+/* Central square */
+
+.fifth-section .central {
+
+    background-color: #F5F5F5;
+
+}
+
+.fifth-section .central div {
+
+    width: 100%;
+    padding: 40px;
+
+    color: grey;
+    font-size: 12px;
+
+}
+
+.fifth-section .central div img {
+    display: inline-block;
+    max-width: 260px;
+    padding-bottom: 20px;
+
+}
+
+.fifth-section .central div hr {
+    width: 100px;
+
+}
+
+
+.fifth-section .central cite {
+
+    display: block;
+    padding-top: 20px;
+
+}
+
+/* Lateral squares  */
+
 .fifth-section .lateral  {
 
     justify-content: flex-start;
@@ -383,26 +423,24 @@ header .container {
 
 .fifth-section .lateral .small-sq {
 
+    justify-content: center;
+    align-items: center;
+    
     width: calc(100% / 2);
     height: calc(100% / 2);
 
 }
 
 .fifth-section .lateral .small-sq img {
-    
-    margin: 0 auto;
-    width: 140px;
+
+    max-width: 140px;
     height: auto;
+
+    padding-left: 3px;
+    padding-right: 3px;
 
     filter: invert(99%) sepia(7%) saturate(31%) hue-rotate(222deg) brightness(112%) contrast(93%);
     
-}
-
-#florida {
-
-    width: 160px;
-    height: auto;
-
 }
 
 /* Background colors squares lateral */
@@ -466,7 +504,6 @@ header .container {
     padding-bottom: 120px;
 
     background-color: #B4D0E7;
-
 
 }
 
