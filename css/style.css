@@ -10,7 +10,7 @@
 /* TAGS  */
 
 body {
-    font-family:' Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section, header, footer {
@@ -179,15 +179,54 @@ header {
     /* 80 px di header più 80 px di padding */
     padding-top: calc(80px + 80px); 
     
+    background-color: #B4D0E7;
+    
 }
 
-header .container {
+header .container .jumbo {
+    justify-content: space-between;
+    position: relative;
+    top: 120px;
 
-    /* test */
-    border: black 1px dashed;
-    background-color: grey;
-    height: 650px;
+    gap: 35px;
 }
+
+header .container .jumbo .jumbo-text {
+
+    max-width: 350px;
+}
+
+header .container .jumbo .jumbo-text p:nth-child(1) {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+header .container .jumbo div {
+    padding-bottom: 30px;
+}
+
+header .container .jumbo .jumbo-text p:last-of-type {
+
+    padding-bottom: 70px;
+
+    font-size: 16px;
+}
+
+header .container .jumbo i {
+    display: block;
+    font-size: 45px;
+
+}
+
+header .container .jumbo .jumbo-img {
+    flex-grow: 1;
+}
+
+header .container .jumbo .jumbo-img img {
+    width: 100%;
+}
+
+
 /* END Header  */
 
 
@@ -210,8 +249,7 @@ header .container {
     padding-top: 130px;
     padding-bottom: 150px;
 
-    /* test  */
-    border: green 2px solid;
+
     
 }
 
@@ -296,10 +334,12 @@ header .container {
 .second-section .container div:last-child h3 {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-size: 35px;
 }
 
 .second-section .container div:last-child p {
     padding-bottom: 35px;
+    font-size: 16px;
 }
 /* END 2 section  */
 
