@@ -599,11 +599,29 @@ header .container .jumbo .jumbo-img img {
 
 }
 
-.seventh-section .container {
+.seventh-section .container h2 {
 
-    /* TEst */
-    height: 200px;
-    border: solid 2px red;
+    padding-bottom: 60px;
+}
+
+.seventh-section .container div {
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+
+    font-size: 16px;
+}
+
+.seventh-section .container div i {
+    display: block;
+}
+
+.seventh-section .container p {
+    display: none;
+    position: relative;
+
+    left: 40px;
+    padding-bottom: 20px;
 }
 
 /* END 7 section  */
