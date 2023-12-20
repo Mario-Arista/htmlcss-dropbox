@@ -21,7 +21,7 @@ section, footer {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -164,6 +164,10 @@ header .row .buttons-header {
     
 }
 
+.second-section .container h2 {
+    padding-bottom: 60px;
+}
+
 /* parte con tre box */
 
 .second-section .container .table-columns {
@@ -171,12 +175,16 @@ header .row .buttons-header {
     align-items: flex-start;
     gap: 50px;
 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
 }
 
 
 .second-section .container .table-columns .vertical {
     
-    width: 330px;
+    width: calc(100% / 3 - 50px / 3 * 2);
 
     /* test */
     height: 950px;
@@ -187,11 +195,6 @@ header .row .buttons-header {
 /* parte con 1 box oriz. */
 
 .second-section .container .orizontal {
-    
-
-
-
-    
 
     width: 100%;
 
@@ -269,14 +272,15 @@ header .row .buttons-header {
 
 .fourth-section .container .row-features {
 
-    
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    gap: 50px;
 
 }
 
 .features-box {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 50px /3 * 2);
 
     /* test */
     height: 500px;
@@ -315,11 +319,11 @@ header .row .buttons-header {
 }
 
 .sixth-section .square {
-    width: 33vw;
+    width: calc(100vw /3);
     
 
     /* test  */
-    height: 33vw;
+    height: calc(100vw /3);
     border: purple dotted 1px;
 
 }
@@ -334,6 +338,7 @@ header .row .buttons-header {
 
 .sixth-section .lateral .small-sq {
     width: calc(100% / 2);
+    height: calc(100% / 2);
 
     /* test  */
     border: green dotted 1px;
