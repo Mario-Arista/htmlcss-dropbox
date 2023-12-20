@@ -14,7 +14,7 @@ body {
     background-color: white;
 }
 
-section, footer {
+section, header, footer {
 
     width: 100%;
 
@@ -59,9 +59,9 @@ h2 {
 
 /* END General Rules */
 
-/* Header  */
+/* Nav  */
 
-header {
+nav {
     position: fixed;
     z-index: 2;
 
@@ -76,7 +76,7 @@ header {
     border:  red solid 2px;
 }
 
-header .row {
+nav .row {
 
     justify-content: space-between;
     align-items: center;
@@ -86,8 +86,8 @@ header .row {
 
 }
 
-header .row .logo-header, 
-header .row .buttons-header {
+nav .row .logo-header, 
+nav .row .buttons-header {
     
     width: 170px;
 
@@ -95,7 +95,7 @@ header .row .buttons-header {
     border: black 1px dashed;
 }
 
-header .row nav {
+nav .row .menu {
     flex-grow: 1;
 
     justify-content: space-between;
@@ -105,13 +105,13 @@ header .row nav {
     border: black 1px dashed;
 }
 
-header .row nav ul {
+nav .row .menu ul {
     gap: 40px;
 
     list-style: none;
 }
 
-header .row .buttons-header {
+nav .row .buttons-header {
 
   justify-content: center;
   align-items: center;
@@ -119,13 +119,11 @@ header .row .buttons-header {
 
 }
 
-/* END Header  */
+/* END Nav  */
 
-/* Main with 8 sections  */
+/* Header  */
 
-/* 1 section  */
-
-.first-section {
+header {
 
     padding-left: 16px;
     padding-right: 16px;
@@ -135,18 +133,23 @@ header .row .buttons-header {
     
 }
 
-.first-section .container {
+header .container {
 
     /* test */
     border: black 1px dashed;
     background-color: grey;
     height: 650px;
 }
-/* END 1 section  */
+/* END Header  */
 
-/* 2 section  */
 
-.second-section {
+/* Main with 8 sections  */
+
+
+
+/* 1 section  */
+
+.first-section {
 
 
     /* TEST */
@@ -154,7 +157,7 @@ header .row .buttons-header {
     
 }
 
-.second-section .container {
+.first-section .container {
 
     padding-top: 130px;
     padding-bottom: 150px;
@@ -164,13 +167,13 @@ header .row .buttons-header {
     
 }
 
-.second-section .container h2 {
+.first-section .container h2 {
     padding-bottom: 60px;
 }
 
 /* parte con tre box */
 
-.second-section .container .table-columns {
+.first-section .container .table-columns {
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
@@ -182,7 +185,7 @@ header .row .buttons-header {
 }
 
 
-.second-section .container .table-columns .vertical {
+.first-section .container .table-columns .vertical {
     
     width: calc(100% / 3 - 50px / 3 * 2);
 
@@ -194,7 +197,7 @@ header .row .buttons-header {
 
 /* parte con 1 box oriz. */
 
-.second-section .container .orizontal {
+.first-section .container .orizontal {
 
     width: 100%;
 
@@ -208,6 +211,42 @@ header .row .buttons-header {
 }
 
 
+/* END 1 section  */
+
+/* 2 section  */
+
+.second-section {
+
+    /* TEST */
+    border:  red solid 2px;
+    
+}
+
+.second-section .container {
+    justify-content: flex-start;
+
+    padding-bottom: 150px;
+
+    /* test  */
+    border: green 2px solid;
+    
+}
+
+.second-section .container div:first-child {
+    /* TEST */
+    width: 600px;
+    height: 500px;
+    background-color: green;
+}
+
+.second-section .container div:last-child {
+
+    flex-grow: 1;
+
+    /* TEST */
+    background-color: red;
+}
+
 /* END 2 section  */
 
 /* 3 section  */
@@ -220,42 +259,6 @@ header .row .buttons-header {
 }
 
 .third-section .container {
-    justify-content: flex-start;
-
-    padding-bottom: 150px;
-
-    /* test  */
-    border: green 2px solid;
-    
-}
-
-.third-section .container div:first-child {
-    /* TEST */
-    width: 600px;
-    height: 500px;
-    background-color: green;
-}
-
-.third-section .container div:last-child {
-
-    flex-grow: 1;
-
-    /* TEST */
-    background-color: red;
-}
-
-/* END 3 section  */
-
-/* 4 section  */
-
-.fourth-section {
-
-    /* TEST */
-    border:  red solid 2px;
-    
-}
-
-.fourth-section .container {
 
     /* test  */
     border: green 2px solid;
@@ -263,14 +266,14 @@ header .row .buttons-header {
     padding-bottom: 150px;
 }
 
-.fourth-section .container h2 {
+.third-section .container h2 {
 
     /* test  */
 
     margin-bottom: 30px;
 }
 
-.fourth-section .container .row-features {
+.third-section .container .row-features {
 
     justify-content: space-between;
     align-items: flex-start;
@@ -288,29 +291,29 @@ header .row .buttons-header {
     
 }
 
-/* END 4 section  */
+/* END 3 section  */
 
-/* 5 section  */
+/* 4 section  */
 
-.fifth-section {
+.fourth-section {
 
     padding-bottom: 150px;
 
 
 }
 
-.fifth-section .container {
+.fourth-section .container {
 
     /* TEst */
     height: 200px;
     border: solid 2px red;
 }
 
-/* END 5 section  */
+/* END 4 section  */
 
-/* 6 section - "Modern box"  */
+/* 5 section - "Modern box"  */
 
-.sixth-section {
+.fifth-section {
 
     align-items: flex-start;
 
@@ -318,7 +321,7 @@ header .row .buttons-header {
     background-color: yellow;
 }
 
-.sixth-section .square {
+.fifth-section .square {
     width: calc(100vw /3);
     
 
@@ -328,31 +331,50 @@ header .row .buttons-header {
 
 }
 
-.sixth-section .lateral  {
+.fifth-section .lateral  {
+
     justify-content: flex-start;
     flex-wrap: wrap;
     
-
-
 }
 
-.sixth-section .lateral .small-sq {
+.fifth-section .lateral .small-sq {
+
     width: calc(100% / 2);
     height: calc(100% / 2);
 
     /* test  */
     border: green dotted 1px;
 }
+/* END 5 section  */
+
+/* 6 section  */
+
+.sixth-section {
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    background-color: #B4D0E7;
+
+
+}
+
+.sixth-section .container {
+
+    /* TEst */
+    height: 200px;
+    border: solid 2px red;
+}
+
 /* END 6 section  */
 
 /* 7 section  */
 
 .seventh-section {
 
-    padding-top: 120px;
-    padding-bottom: 120px;
-
-    background-color: #B4D0E7;
+    padding-top: 150px;
+    padding-bottom: 150px;
 
 
 }
@@ -366,28 +388,10 @@ header .row .buttons-header {
 
 /* END 7 section  */
 
-/* 8 section  */
-
-.eighth-section {
-
-    padding-top: 150px;
-    padding-bottom: 150px;
-
-
-}
-
-.eighth-section .container {
-
-    /* TEst */
-    height: 200px;
-    border: solid 2px red;
-}
-
-/* END 8 section  */
-
-/* END Main with 8 sections  */
+/* END Main with 7 sections  */
 
 /* Footer  */
+
 footer {
 
 

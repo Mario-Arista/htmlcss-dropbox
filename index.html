@@ -23,67 +23,65 @@
     <!-- Header: Flex con tre contenitori posizionati con 
     space between, i due estremi con width fissa -->
 
-  <header>
+  <nav>
+        <div class="row flex">
+            <div class="logo-header">
+                Logo
+            </div>
 
-    <div class="row flex">
-        <div class="logo-header">
-            Logo
+            <div class="menu flex">
+                <ul class="flex">
+                    <li>Perchè Dropbox</li>
+                    <li>Funzioni</li>
+                    <li>Piani e Prezzi</li>
+                </ul>
+                <ul class="flex">
+                    <li>Supporto</li>
+                    <li>Contatta l'ufficio vendite</li>
+                </ul>
+            </div>
+
+            <div class="buttons-header flex">
+
+                <div>Accedi</div>
+                <div>Inizia</div>
+
+            </div>
+        
         </div>
 
-        <nav class="flex">
-            <ul class="flex">
-                <li>Perchè Dropbox</li>
-                <li>Funzioni</li>
-                <li>Piani e Prezzi</li>
-            </ul>
-            <ul class="flex">
-                <li>Supporto</li>
-                <li>Contatta l'ufficio vendite</li>
-            </ul>
-        </nav>
+    </nav>
 
-        <div class="buttons-header flex">
+    <!-- Header Macro contenitore centrato con
+    vertic. più grande rispetto alle sezioni di seguito
+    -->
+    <header class="first-section">
+        <div class="container big">
 
-            <div>Accedi</div>
-            <div>Inizia</div>
+        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
 
+        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+        <div class="btn-blue">
+            <a href="">Inizia la prova gratuita</a>
         </div>
-    
-    </div>
+            <p>Annulla in qualsiasi momento</p>
+            <i class="fa fa-arrow-down"></i>
+        </div>
 
-  </header>
+    </header>
 
-  <!-- Main con 9 sezioni -->
+
+  <!-- Main con 7 sezioni -->
 
   <Main>
 
-        <!-- 1a Sezione MAIN Macro contenitore centrato con
-        vertic. più grande rispetto alle sezioni di seguito
-        -->
-        <section class="first-section">
-            <div class="container big">
-
-                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-
-                <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                <div class="btn-blue">
-                    <a href="">Inizia la prova gratuita</a>
-                </div>
-                <p>Annulla in qualsiasi momento</p>
-                <i class="fa fa-arrow-down"></i>
-
-
-            </div>
-
-        </section>
-
         <!-- quattro Sezioni con la stessa width -->
 
-        <!-- 2a Sezione MAIN, flex con 3 box equidistanti
+        <!-- 1a Sezione MAIN, flex con 3 box equidistanti
         oriz. che si estendono in verticale + 
         1 box che si estende in orizzonatale-->
 
-        <section class="second-section">
+        <section class="first-section">
             <div class="container small">
                 <h2>Trova il piano business che fa per te</h2>
                 <div>
@@ -106,20 +104,20 @@
         </section>
 
 
-        <!-- 3a Sezione MAIN, 2 contenitori, uno con l'immagine
+        <!-- 2a Sezione MAIN, 2 contenitori, uno con l'immagine
         e laltro con titolo, paragrafo e bottone-->
 
-        <section class="third-section">
+        <section class="second-section">
             <div class="container small flex">
                 <div> Immagine</div>
                 <div> Box con testo</div>
             </div>
         </section>
 
-        <!-- 4a Sezione MAIN, 6 contenitori, 3 per riga equidistanti, 
+        <!-- 3a Sezione MAIN, 6 contenitori, 3 per riga equidistanti, 
             con all'intreno di ciascuno: imm, titolo, paragrafo -->
 
-        <section class="fourth-section">
+        <section class="third-section">
             <div class="container small">
 
                 <h2>Esegui più operazioni con Dropbox Business</h2>
@@ -138,10 +136,10 @@
             </div>
         </section>
 
-        <!-- 5a Sezione MAIN, Titolo e link
+        <!-- 4a Sezione MAIN, Titolo e link
         allineati a sinistra -->
 
-        <section class="fifth-section">
+        <section class="fourth-section">
             <div class="container small">
                 <h2>Più di 500.000 team utilizzano</h2>
                 <h2>Dropbox Business</h2>
@@ -149,13 +147,13 @@
             </div>
         </section>
 
-        <!-- 6a Sezione MAIN, Sezione diversa dalle altre, 
+        <!-- 5a Sezione MAIN, Sezione diversa dalle altre, 
         a tutta pagina. All'interno ci sono tre quadrati 
         della stessa grandezza. In quelli laterali 4 immagini
         sempre quadrati, stessa dimensione. Quella centrale con
         testo e overflow-->
 
-        <section class="sixth-section flex">
+        <section class="fifth-section flex">
             <div class="square lateral flex">
                 
                 <div class="small-sq">ciao</div>
@@ -178,21 +176,21 @@
             </div>
         </section>
 
-        <!-- 7a stessa width delle 4 sezioni precedenti
+        <!-- 6a stessa width delle 4 sezioni precedenti
             con titolo e bottone-->
 
-        <section class="seventh-section">
+        <section class="sixth-section">
             <div class="container small">
                 <h2>Più di 500.000 team utilizzano</h2>
                 <div>Bottone</div>
             </div>
         </section>
 
-        <!-- 8a stessa width delle 5 sezioni precedenti.
+        <!-- 7a stessa width delle 4 sezioni precedenti.
         Domande frequenti. Con titolo e tre div che si 
         sviluppano vert.-->
 
-        <section class="eighth-section">
+        <section class="seventh-section">
             <div class="container small">
                 <h2>Domande più frequenti</h2>
                 <div>Qual'è la differenza tra Dropbox business standard e Dropbox business advanced</div>
