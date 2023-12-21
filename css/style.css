@@ -20,7 +20,8 @@ section, header, footer {
 }
 
 h1 {
-    font-size: 60px;
+
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -139,6 +140,7 @@ nav .row .buttons-nav {
   padding-right: 20px;
 
 }
+
 nav .row .buttons-nav .button {
     justify-content: center;
 
@@ -163,7 +165,6 @@ nav .row .buttons-nav .blue a {
     text-decoration: none;
 
 }
-
 
 
 /* END Nav  */
@@ -228,8 +229,6 @@ header .container .jumbo .button-header a {
 }
 
 
-}
-
 header .container .jumbo .jumbo-img {
     flex-grow: 1;
 }
@@ -260,12 +259,24 @@ header .container .jumbo .jumbo-img img {
 }
 
 input {
+
     font-size: 12px;
+
+    
+
+}
+
+label {
+
+    padding-left: 2px;
+    padding-right: 35px;
+
 }
 
 /* parte con tre box */
 
 .first-section .container .table-columns {
+
     justify-content: space-between;
 
     gap: 50px;
@@ -294,33 +305,47 @@ input {
     padding: 12px;
     border-bottom: #BABABD 1px solid;
 }
+
 .box-plan {
     padding-left: 35px;
     padding-right: 35px;
 }
+
 .name-plan {
     padding-top: 38px;
     padding-bottom: 25px;
     font-size: 18px;
     font-weight: bold;
 }
+
 .price-plan {
     padding-bottom: 18px;
     font-weight: bold;
 }
+
 .duration-plan {
     padding-bottom: 55px;
     color: #BABABD;
 }
 
 .info-plan {
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: flex;
     padding-bottom: 25px;
+    width: 90%;
 }
-.info-plan i,.info-plan span {
+
+.info-plan span, .info-plan i  {
     display: block;
 }
+
+.info-plan span {
+    padding-left: 6px;
+}
+
+.info-plan i {
+    padding-top: 4px;
+}
+
 .info-plan:nth-child(6) {
     padding-bottom: 80px;
 }
@@ -332,14 +357,16 @@ input {
     background-color: #3054DF;
     padding: 10px 35px;
     color: white;
+
+    white-space: nowrap;
  
 }
-
 
 .first-section .container .vertical .button a {
     color: white;
     text-decoration: none;
     font-size: 12px;
+    
 }
 
 .link-plan {
@@ -351,40 +378,53 @@ input {
     display: inline-block;
     width: 50px;
 }
+
 .milestone-plan {
+    padding-top: 50px;
     padding-bottom: 40px;
     font-size: 14px;
     font-weight: bold;
     
 }
+
 .insight-plan {
+
+    display: flex;
     padding-bottom: 25px;
+    width: 90%;
+}
+
+.insight-plan span, .insight-plan i  {
+    display: block;
+}
+
+.insight-plan span {
+    padding-left: 6px;
 }
 
 .insight-plan i {
-    color: blue;
+    padding-top: 4px;
+    color:  #3054DF;
 }
 
 /* parte con 1 box oriz. */
 
-.first-section .container .orizontal {
+.orizontal {
 
     width: 100%;
     position: relative;
 
-
 }
-
-.first-section .container .orizontal box-title {
+.orizontal box-title {
     padding-bottom: 40px;
 }
 
-.first-section .container .orizontal .name-plan {
+.orizontal .name-plan {
     padding-left: 30px;
     padding-bottom: 20px;
 }
 
-.first-section .container .orizontal .button {
+.orizontal .button {
     position: absolute;
     right: 25px;
     top: 80px;
@@ -393,16 +433,18 @@ input {
     color: white;
 }
 
-.first-section .container .orizontal .button a {
+.orizontal .button a {
     color: white;
     text-decoration: none;
 }
 
-.first-section .container .orizontal .price-plan {
+.orizontal .price-plan {
     padding-left: 30px;
     padding-bottom: 60px;
 }
-.first-section .container .orizontal .info-plan {
+
+.orizontal .info-plan {
+    max-width: 70%;
     padding-left: 30px;
 }
 
@@ -412,6 +454,7 @@ input {
 /* 2 section  */
 
 .second-section .container {
+
     justify-content: flex-start;
 
     padding-bottom: 150px;
@@ -420,10 +463,12 @@ input {
 }
 
 .second-section .container div:first-child {
+
     flex-grow: 1;
 }
 
 .second-section .container div:first-child img {
+
     width: 100%;
 
 }
@@ -437,12 +482,21 @@ input {
 .second-section .container div:last-child h3 {
     padding-top: 50px;
     padding-bottom: 20px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .second-section .container div:last-child p {
+
     padding-bottom: 35px;
     font-size: 16px;
+}
+
+.button-partner a {
+    padding: 8px 15px;
+    border: black 1px solid;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -457,8 +511,6 @@ input {
 }
 
 .third-section .container h2 {
-
-    /* test  */
 
     margin-bottom: 80px;
 }
@@ -477,6 +529,7 @@ input {
     width: calc(100% / 3 - 50px /3 * 2);
     
 }
+
 .features-box:nth-child(1),
 .features-box:nth-child(2)
 .features-box:nth-child(3) {
@@ -546,6 +599,7 @@ input {
 
 }
 
+
 .fifth-section .central div {
 
     width: 100%;
@@ -554,11 +608,15 @@ input {
     color: grey;
     font-size: 12px;
 
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
 }
 
 .fifth-section .central div img {
     display: inline-block;
-    max-width: 260px;
+    width: 50%;
     padding-bottom: 40px;
 
 }
@@ -597,7 +655,7 @@ input {
 
 .fifth-section .lateral .small-sq img {
 
-    max-width: 140px;
+    max-width: 50%;
     height: auto;
 
     padding-left: 3px;
@@ -694,9 +752,6 @@ input {
 
 }
 
-
-
-
 /* END 6 section  */
 
 /* 7 section  */
@@ -706,7 +761,6 @@ input {
     padding-top: 150px;
     padding-bottom: 150px;
 
-
 }
 
 .seventh-section .container h2 {
@@ -715,6 +769,7 @@ input {
 }
 
 .seventh-section .container div {
+
     justify-content: space-between;
     align-items: center;
     padding: 45px 0;
@@ -723,10 +778,12 @@ input {
 }
 
 .seventh-section .container div i {
+
     display: block;
 }
 
 .seventh-section .container p {
+
     display: none;
     position: relative;
 
@@ -741,7 +798,6 @@ input {
 /* Footer  */
 
 footer {
-
 
     background-color: #000000;
 
@@ -761,6 +817,7 @@ footer .row-footer {
 /* top footer */
 
 footer .row-footer .top-footer  {
+
     justify-content: space-between;
     align-items: flex-start;
 
@@ -769,9 +826,8 @@ footer .row-footer .top-footer  {
 
 }
 
-
-
 footer .row-footer .top-footer .list-top-footer span {
+
     display: block;
     padding-bottom: 35px;
 
@@ -788,6 +844,7 @@ footer .row-footer .top-footer .list-top-footer ul {
 
 
 footer .row-footer .top-footer .list-top-footer ul li {
+
     line-height: 30px;
 
 }
@@ -806,6 +863,7 @@ footer .row-footer .top-footer .list-top-footer ul li a {
 /* bottom footer */
 
 footer .row-footer .bottom-footer::before {
+
     position: absolute;
     display: block;
 
@@ -822,6 +880,7 @@ footer .row-footer .bottom-footer::before {
 }
 
 footer .row-footer .bottom-footer  {
+
     position: relative;
 
     padding-top: 50px;
@@ -832,11 +891,14 @@ footer .row-footer .bottom-footer  {
 
 }
 footer .row-footer .bottom-footer a {
+
     text-decoration: none;
     color: white;
+
 }
 
 footer .row-footer .bottom-footer i:last-child {
+
     vertical-align: middle;
 }
 /* bottom footer */
