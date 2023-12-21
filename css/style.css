@@ -60,13 +60,26 @@ h2 {
 
 /* Hover/Active rules  */
 
+/*  Nav link hover, border top + box shadow */
+
 nav li:hover a {
     padding-bottom: 5px;
     border-bottom: #3961FF 2px solid;
     box-shadow: 0px 15px 10px -15px #3961FF; 
 }
 
+/*  Shadow buttons */
 
+.h-shadow:hover a {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-plan .button:hover, 
+.orizontal .button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*  7th section insight discover */
 
 .seventh-section .container:hover div i:last-child {
 
@@ -84,15 +97,19 @@ nav li:hover a {
     display: block; 
 }
 
+/*  Top footer link hover, border top + box shadow */
 
 footer li:hover a {
     padding-bottom: 4px;
     border-bottom: white 2px solid;
     box-shadow: 0px 15px 10px -15px white;
 }
+
 /* END Hover/Active rules  */
 
 /* Animations rules  */
+
+/* Animation Arrow Header */
 
 header .jumbo i {
 
@@ -169,6 +186,31 @@ header .jumbo i {
        }
 }
 
+/* Animation H2 pulsing */
+
+h2 {
+
+transform: scale(1);
+animation: pulse 2s infinite;
+
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.99);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.99);
+	}
+}
+
+/* Animation globe footer */
+
 .bottom-footer .fa-globe {
 
     animation-name: rotation;
@@ -217,14 +259,17 @@ nav .row {
 
 }
 
-nav .row .logo-nav, 
-nav .row .buttons-nav {
+nav .row .logo-nav {
 
     justify-content: center;
     align-items: center;
     
     width: 180px;
 
+}
+
+nav .row .button-nav {
+    width: 90px;
 }
 
 /* Logo */
@@ -264,7 +309,7 @@ nav .row .menu ul li a {
 
 /* Buttons */
 
-nav .row .buttons-nav {
+nav .row .button-nav {
 
   justify-content: center;
   align-items: center;
@@ -274,7 +319,7 @@ nav .row .buttons-nav {
 
 }
 
-nav .row .buttons-nav .button {
+nav .row .button-nav .button {
     justify-content: center;
 
     padding: 8px 15px;
@@ -284,12 +329,7 @@ nav .row .buttons-nav .button {
 
 }
 
-nav .row .buttons-nav .no-bg a {
-    color: black;
-    text-decoration: none;
-}
-
-nav .row .buttons-nav .blue a {
+nav .row .button-nav .blue a {
     padding: 8px 15px;
     border: none;
 
@@ -352,7 +392,7 @@ header .container .jumbo i {
 
 }
 
-header .container .jumbo .button-header a {
+header .container .jumbo .button a {
     padding: 8px 15px;
     border: none;
 
@@ -481,6 +521,7 @@ label {
 }
 
 .box-plan .button {
+
     margin: 0 auto;
     text-align: center;
 
@@ -617,7 +658,7 @@ label {
     font-size: 16px;
 }
 
-.button-partner a {
+.second-section .button a {
     padding: 8px 15px;
     border: black 1px solid;
     font-size: 14px;
@@ -867,7 +908,7 @@ label {
 }
 
 
-.sixth-section .container .button-sixth a {
+.sixth-section .button a {
 
     display: block;
     background-color: white;
