@@ -58,6 +58,44 @@ h2 {
 
 /* END General Rules */
 
+/* Hover/Active rules  */
+
+nav li:hover a {
+    padding-bottom: 5px;
+    border-bottom: #3961FF 2px solid;
+    box-shadow: 0px 15px 10px -15px #3961FF; 
+}
+
+
+
+.seventh-section .container:hover div i:last-child {
+
+    display: block;
+  
+}
+
+.seventh-section .container:hover div i:first-child {
+
+    display: none;
+}
+
+.seventh-section .container:hover p {
+  
+    display: block; 
+}
+
+
+footer li:hover a {
+    padding-bottom: 4px;
+    border-bottom: white 2px solid;
+    box-shadow: 0px 15px 10px -15px white;
+}
+/* END Hover/Active rules  */
+
+/* Animations rules  */
+
+/* END Animations rules  */
+
 /* Nav  */
 
 nav {
@@ -775,12 +813,17 @@ label {
     display: block;
 }
 
+.seventh-section .container div i:last-child {
+
+  display: none; 
+
+}
 .seventh-section .container p {
 
-    display: none;
+    display: none; 
     position: relative;
 
-    left: 40px;
+    left: 1px;
     padding-bottom: 20px;
 }
 
