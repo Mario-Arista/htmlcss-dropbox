@@ -68,6 +68,14 @@ nav li:hover a {
     box-shadow: 0px 15px 10px -15px #3961FF; 
 }
 
+h2:hover {
+    color: #2d2b2b;
+}
+
+.sixth-section h2:hover {
+    filter: brightness(2);
+}
+
 /*  Shadow buttons */
 
 .h-shadow:hover a {
@@ -196,6 +204,7 @@ header .jumbo i {
 }
     
 @keyframes pulse-logo {
+
     0% {
     transform: scale(1);
     }
@@ -211,31 +220,8 @@ header .jumbo i {
     100% {
     transform: scale(1);
     }
-    }
-
-
-/* Animation H2 pulsing */
-
-h2 {
-
-transform: scale(1);
-animation: pulse-h2 2s infinite;
-
 }
 
-@keyframes pulse-h2 {
-	0% {
-		transform: scale(0.99);
-	}
-
-	50% {
-		transform: scale(1);
-	}
-
-	100% {
-		transform: scale(0.99);
-	}
-}
 
 /* Animation globe footer */
 
