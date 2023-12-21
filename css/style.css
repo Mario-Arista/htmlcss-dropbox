@@ -186,16 +186,44 @@ header .jumbo i {
        }
 }
 
+/* Animation logo pulsing */
+
+.logo-nav {
+
+    transform: scale(1);
+    animation: pulse-logo 1.5s infinite;
+    
+}
+    
+@keyframes pulse-logo {
+    0% {
+    transform: scale(1);
+    }
+    25% {
+    transform: scale(0.99);
+    }
+    50% {
+    transform: scale(0.98);
+    }
+    75% {
+    transform: scale(0.99);
+    }
+    100% {
+    transform: scale(1);
+    }
+    }
+
+
 /* Animation H2 pulsing */
 
 h2 {
 
 transform: scale(1);
-animation: pulse 2s infinite;
+animation: pulse-h2 2s infinite;
 
 }
 
-@keyframes pulse {
+@keyframes pulse-h2 {
 	0% {
 		transform: scale(0.99);
 	}
