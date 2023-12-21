@@ -68,6 +68,8 @@ nav li:hover a {
     box-shadow: 0px 15px 10px -15px #3961FF; 
 }
 
+/*  h2 hover  */
+
 h2:hover {
     color: #2d2b2b;
 }
@@ -85,6 +87,16 @@ h2:hover {
 .box-plan .button:hover, 
 .orizontal .button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*  5th section border */
+
+.lateral .small-sq {
+    transition: border 0.1s;
+}
+
+.lateral .small-sq:hover {
+    border: solid 16px;
 }
 
 /*  7th section insight discover */
@@ -861,16 +873,19 @@ label {
 .fifth-section .lateral:first-of-type .small-sq:nth-child(2) {
 
     background-color: #61082B;
+    border-color: #a50e4ba8;
 } 
 
 .fifth-section .lateral:first-of-type .small-sq:nth-child(3) {
 
     background-color: #3792CD;
+    border-color: #63a2cd;
 } 
 
 .fifth-section .lateral:first-of-type .small-sq:nth-child(4) {
 
     background-color: #F31C1E;
+    border-color: #ee6366;
 } 
 
 /* Second square */ 
@@ -878,21 +893,25 @@ label {
 .fifth-section .lateral:last-of-type .small-sq:nth-child(1) {
 
     background-color: #D5001F;
+    border-color: #ee6366;
 } 
 
 .fifth-section .lateral:last-of-type .small-sq:nth-child(2) {
 
     background-color: #B4D0E7;
+    border-color: #3b91d8;
 } 
 
 .fifth-section .lateral:last-of-type .small-sq:nth-child(3) {
 
     background-color: #172481;
+    border-color: #3b91d8;
 } 
 
 .fifth-section .lateral:last-of-type .small-sq:nth-child(4) {
 
     background-color: #F9D82F;
+    border-color: #4f4306;
 } 
 
 /* Background colors squares lateral */
