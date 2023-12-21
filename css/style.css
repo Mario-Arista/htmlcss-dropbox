@@ -442,7 +442,7 @@ header .container .jumbo .jumbo-img img {
 
 /* Main with 7 sections  */
 
-/* 1 section  */
+/* 1st section  */
 
 .first-section .container {
 
@@ -472,7 +472,7 @@ label {
 
 }
 
-/* parte con tre box */
+/* Part with three boxes */
 
 .first-section .container .table-columns {
 
@@ -600,7 +600,7 @@ label {
     color:  #3054DF;
 }
 
-/* parte con 1 box oriz. */
+/* part with 1 box vert. */
 
 .orizontal {
 
@@ -642,9 +642,9 @@ label {
 }
 
 
-/* END 1 section  */
+/* END 1st section  */
 
-/* 2 section  */
+/* 2nd section  */
 
 .second-section .container {
 
@@ -693,9 +693,9 @@ label {
 }
 
 
-/* END 2 section  */
+/* END 2nd section  */
 
-/* 3 section  */
+/* 3th section  */
 
 
 .third-section .container {
@@ -748,9 +748,9 @@ label {
 }
 
 
-/* END 3 section  */
+/* END 3th section  */
 
-/* 4 section  */
+/* 4th section  */
 
 .fourth-section {
 
@@ -767,9 +767,9 @@ label {
 }
 
 
-/* END 4 section  */
+/* END 4th section  */
 
-/* 5 section - "Modern box"  */
+/* 5th section - "Modern box"  */
 
 .fifth-section {
 
@@ -860,7 +860,6 @@ label {
 
 /* Background colors squares lateral */
 
-/* First square */ 
 
 .fifth-section .lateral:first-of-type .small-sq:nth-child(1) {
 
@@ -914,11 +913,10 @@ label {
     border-color: #4f4306;
 } 
 
-/* Background colors squares lateral */
 
-/* END 5 section  */
+/* END 5th section  */
 
-/* 6 section  */
+/* 6th section  */
 
 .sixth-section {
 
@@ -952,9 +950,9 @@ label {
 
 }
 
-/* END 6 section  */
+/* END 6th section  */
 
-/* 7 section  */
+/* 7th section  */
 
 .seventh-section {
 
@@ -996,7 +994,7 @@ label {
     padding-bottom: 20px;
 }
 
-/* END 7 section  */
+/* END 7th section  */
 
 /* END Main with 7 sections  */
 
@@ -1106,4 +1104,5 @@ footer .row-footer .bottom-footer i:last-child {
 
     vertical-align: middle;
 }
-/* bottom footer */
+
+/* END bottom footer */
