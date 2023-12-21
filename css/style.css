@@ -330,16 +330,13 @@ label {
 
 .info-plan {
     display: flex;
+    gap: 6px;
     padding-bottom: 25px;
     width: 90%;
 }
 
 .info-plan span, .info-plan i  {
     display: block;
-}
-
-.info-plan span {
-    padding-left: 6px;
 }
 
 .info-plan i {
@@ -357,8 +354,6 @@ label {
     background-color: #3054DF;
     padding: 10px 35px;
     color: white;
-
-    white-space: nowrap;
  
 }
 
@@ -390,6 +385,7 @@ label {
 .insight-plan {
 
     display: flex;
+    gap: 6px;
     padding-bottom: 25px;
     width: 90%;
 }
@@ -398,9 +394,6 @@ label {
     display: block;
 }
 
-.insight-plan span {
-    padding-left: 6px;
-}
 
 .insight-plan i {
     padding-top: 4px;
